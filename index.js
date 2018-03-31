@@ -45,7 +45,6 @@ function viewCart() {
             }
             
             if ((i === (cart.length - 1))) {
-              for (var x = 0; x === (cart.length - 1); x++)
             var lastLine = `and ${getCart()[(cart.length - 1)].itemName} at $${getCart()[(cart.length - 1)].itemPrice}.`;
             }
             return `${firstLine} + ${middleLines} + ${lastLine}`;
