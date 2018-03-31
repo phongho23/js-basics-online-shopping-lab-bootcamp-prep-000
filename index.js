@@ -36,7 +36,7 @@ function viewCart() {
       }
       else {
         if((cart.length - 1) >= 2){
-          for (var i = 0; i < cart.length; i++) {
+          for (var i = 0; i < cart.length-1; i++) {
             
             var firstLine = `In your cart, you have ${getCart()[0].itemName} at $${getCart()[0].itemPrice},`;
             
