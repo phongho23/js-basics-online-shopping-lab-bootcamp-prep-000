@@ -47,7 +47,7 @@ function viewCart() {
             if ((i === (cart.length - 1))) {
             var lastLine = `and ${getCart()[(cart.length - 1)].itemName} at $${getCart()[(cart.length - 1)].itemPrice}.`;
             }
-            return `${firstLine}${middleLines}${lastLine}`;
+            return `${firstLine} ${middleLines} ${lastLine}`;
           
           }
         }
