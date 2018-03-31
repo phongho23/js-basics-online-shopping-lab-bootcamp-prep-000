@@ -40,7 +40,7 @@ function viewCart() {
             
             var firstLine = `In your cart, you have ${getCart()[0].itemName} at $${getCart()[0].itemPrice},`;
             
-            var middleLines = `${getCart()[i+1].itemName} at $${getCart()[i+1].itemPrice},`;
+            var middleLines = `${getCart()[i].itemName} at $${getCart()[i].itemPrice},`;
             
             }
             
